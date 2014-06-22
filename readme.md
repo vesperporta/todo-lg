@@ -10,6 +10,7 @@ Test
 ----
 
 The below command has no real tests, mainly comments for implementations to be.
+
 	$ protractor ut.js
 
 To view the expected tests to be actioned @see {{unit-tests/index.spec.js}}
@@ -17,17 +18,17 @@ To view the expected tests to be actioned @see {{unit-tests/index.spec.js}}
 Method
 ------
 
-Googled for the type of implementation I wanted and found [todomvc.com|http://todomvc.com/architecture-examples/angularjs/], it did more than expected and fullfilled the brief.
+Google'd for the type of implementation I wanted and found [todomvc.com|http://todomvc.com/architecture-examples/angularjs/], it did more than expected and fulfilled the brief.
 Snag: there was no unit testing implemented into the originating code.
 
 Implement custom tests using the {{protractor}} implementation, allowing an end to end test suit covering functionality.
 
-Allocate grunt tasker to minify JS for production use.
+Allocate grunt to minify JS for production use.
 
 cons
 ----
 
-Funcitonality consitency when deployed into a parent ecosystem are unknown.
+Functionality consistency when deployed into a parent ecosystem are unknown.
 Styling will be required for conversion into Sass.
 
 pros
